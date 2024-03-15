@@ -22,6 +22,7 @@ st.subheader("Use callbacks")
 
 def add_timedelta():
     initial = st.session_state['start_date']
+    
     if st.session_state['radio_range'] == "7 days":
         st.session_state['end_date'] = initial + timedelta(days=7)
     elif st.session_state['radio_range'] == "28 days":
