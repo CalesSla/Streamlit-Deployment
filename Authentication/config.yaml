@@ -1,0 +1,26 @@
+cookie:
+  expiry_days: 30
+  key: cookie_signature_key
+  name: cookie_name
+credentials:
+  usernames:
+    blah:
+      email: blah@gmail.com
+      logged_in: false
+      name: Slade Wilson
+      password: $2b$12$bxCsZrFuOOQ59GJ2b5Weh.WmhzXpT.2.rO4AKimUD4C4aue8rWMI2
+    blah2:
+      email: blah2@gmail.com
+      logged_in: false
+      name: blah2
+      password: $2b$12$SD6p9Ua.b.mHVPRLH6U3KeM5j.slL1tuz.kjMnfDop1ayyyxguycK
+    blah4:
+      email: blah4@gmail.com
+      logged_in: false
+      name: blah4
+      password: $2b$12$DjphK9s9xhZfb3xMHT2bxe6EI3CPWiUUwT/IVZtkPgpLictGORxUi
+    jsmith:
+      email: yoyo@gmail.com
+      logged_in: true
+      name: John Smith
+      password: $2b$12$G.mEccy03Fe/TF0blZcik.hVCixEa89mOEIbkO9G5mImfxNjS.ERy

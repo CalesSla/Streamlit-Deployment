@@ -1,0 +1,21 @@
+cookie:
+  expiry_days: 30
+  key: cookie_signature_key
+  name: cookie_name
+credentials:
+  usernames:
+    datascience:
+      email: datascience@gmail.com
+      logged_in: false
+      name: datascience
+      password: $2b$12$xdyn9T8USEOUShoB1iCA/e93iyIOvYvffQ.xsmyrTPb5hVI3ENKCC
+    jsmith:
+      email: jsmith@gmail.com
+      logged_in: false
+      name: John Smith
+      password: $2b$12$Y5zH3qgMOAPcbttcFeDfUOblRDLgQHZuxC2aMlC7TDXD8QVzgSIom
+    marketing:
+      email: marketing@gmail.com
+      logged_in: false
+      name: marketing
+      password: $2b$12$LmF5YmqAVl7nyzEN5hqTHOHvlMKk2RuO0/1jWW5ehAd9gFl.9.862
