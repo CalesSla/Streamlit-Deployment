@@ -34,7 +34,7 @@ def train_clusters(modelling_df):
 @st.cache_data
 def run_experiments_func(modelling_df):
     sil_scores_kmeans, sil_scores_agglo, kmeans_algorithms = train_clusters(modelling_df)
-    st.session_state['results_df'] = pd.DataFrame({"n_clusters":[i for i in range(2, 11)], "KMeans": sil_scores_kmeans, "Agglo": sil_scores_agglo})
+    st.session_state['results_df'] = pd.DataFrame({"n_clusters": np.arange(2, 11), "KMeans": sil_scores_kmeans, "Agglo": sil_scores_agglo})
     st.session_state['kmeans_algorithms'] = kmeans_algorithms
 
 # @st.cache_data
